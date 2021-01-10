@@ -1,0 +1,172 @@
+{% include "index.html" %}
+<div class="section no-pad-bot" id="index-banner">
+  <div class="container">
+    <br><br>
+    <h1 class="header center green-text">Drug Consumption</h1>
+    <div class="row center">
+      <h5 class="header col s12 light">Launch Machine Learning Models with selected features.
+      <br>
+      </h5>
+    </div>
+
+            <div class="row">
+  <form action='/predict' method="post" class="col s12">
+    <!--div class="row">
+      <div class="input-field col s4">
+          <label for="first_name"><b>Temperature</b></label>
+          <br>
+        <input placeholder="Temperature in Celsius" name="Temperature" id="first_name" type="text" class="validate">
+      </div>
+      <div class="input-field col s4">
+
+        <label for="last_name"><b>Oxygen </b></label>
+          <br>
+        <input id="last_name" name="Oxygen" placeholder="Oxygen content in ppm"  type="text" class="validate">
+
+      </div>
+
+      <div class="input-field col s4">
+          <label for="_name"><b>Humidity</b></label>
+          <br>
+        <input id="_name" name="Humidity" placeholder="Humidity %" type="text" class="validate">
+
+      </div-->
+
+      <div>
+          <select name="drug" id="drug-select">
+              <option value="">--Please select a drug--</option>
+              <option value="Alcohol">Alcohol</option>
+              <option value="Amphet">Amphet</option>
+              <option value="Amyl">Amyl</option>
+              <option value="Benzos">Benzos</option>
+              <option value="Caffeine">Caffeine</option>
+              <option value="Cannabis">Cannabis</option>
+              <option value="Chocolate">Chocolate</option>
+              <option value="Cocaine">Cocaine</option>
+              <option value="Hamster">Hamster</option>
+              <option value="Crack">Crack</option>
+              <option value="Ecstasy">Ecstasy</option>s
+              <option value="Heroin">Heroin</option>
+              <option value="Ketamine">Ketamine</option>
+              <option value="Legalh">Legalh</option>
+              <option value="LSD">LSD</option>
+              <option value="Meth">Meth</option>
+              <option value="Mushrooms">Mushrooms</option>
+              <option value="Nicotine">Nicotine</option>
+              <option value="VSA">VSA</option>
+          </select>
+      </div>
+
+      <br/>
+
+      <div>
+        <input type="checkbox" id="Age" name="Age" value="Age" checked>
+        <label for="Age">Age</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Gender" name="Gender" value="Gender" checked>
+        <label for="Gender">Gender</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Education" name="Education" value="Education" checked>
+        <label for="Education">Education</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Country" name="Country" value="Country" checked>
+        <label for="Country">Country</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Ethnicity" name="Ethnicity" value="Ethnicity" checked>
+        <label for="Ethnicity">Ethnicity</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Nscore" name="Nscore" value="Nscore" checked>
+        <label for="Nscore">Nscore</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Escore" name="Escore" value="Escore" checked>
+        <label for="Escore">Escore</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Oscore" name="Oscore" value="Oscore" checked>
+        <label for="Oscore">Oscore</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Ascore" name="Ascore" value="Ascore" checked>
+        <label for="Ascore">Ascore</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Cscore" name="Cscore" value="Cscore" checked>
+        <label for="Cscore">Cscore</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Impulsive" name="Impulsive" value="Impulsive" checked>
+        <label for="Impulsive">Impulsive</label>
+      </div>
+      <div>
+        <input type="checkbox" id="SS" name="SS" value="SS" checked>
+        <label for="SS">SS</label>
+      </div>
+
+
+    <div class="row center">
+
+        <button type="submit" class="btn-large waves-effect waves-light purple">Compute models</button>
+    </div>
+  </form>
+    </div>
+
+    <br>
+
+    {% if Prediction %}
+      <div>
+      <h2 align='center'>Results:</h2>
+      	{{data | safe}}
+      </div>
+    {% endif %}
+    <br>
+
+
+  </div>
+</div>
+
+
+  <br><br>
+</div>
+</div>>
+
+<!--footer class="page-footer orange">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h5 class="white-text">Company Bio</h5>
+        <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Settings</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Link 1</a></li>
+          <li><a class="white-text" href="#!">Link 2</a></li>
+          <li><a class="white-text" href="#!">Link 3</a></li>
+          <li><a class="white-text" href="#!">Link 4</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Connect</h5>
+        <ul>
+          <li><a class="white-text" href="#!">Link 1</a></li>
+          <li><a class="white-text" href="#!">Link 2</a></li>
+          <li><a class="white-text" href="#!">Link 3</a></li>
+          <li><a class="white-text" href="#!">Link 4</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+    </div>
+  </div>
+</footer-->
