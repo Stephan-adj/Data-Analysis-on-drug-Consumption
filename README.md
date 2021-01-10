@@ -9,7 +9,7 @@ Database contains 18 classification problems. Each of independent label variable
 Open your terminal. 
 
 ```
-cd C:\Data-Analysis-on-drug-Consumption
+cd "C:\Data-Analysis-on-drug-Consumption\Flask web app"
 ```
 
 ### Installing
