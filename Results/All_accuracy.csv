@@ -1,0 +1,37 @@
+Drug,logistic regression,Classification tree,Random Forest,Boosting model,KNN,Age,Gender,Education,Country,Ethnicity,Nscore,Escore,Oscore,Ascore,Cscore,Impulsive,SS
+accuracy for Alcohol,0.95491,0.95491,0.96021,0.95491,0.95491,X,X,X,X,X,X,X,X,X,X,X,X
+Best parameters :,{'C': 1},"{'criterion': 'entropy', 'max_depth': 3, 'max_features': 'auto', 'min_samples_leaf': 8, 'min_samples_split': 5}","{'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto', 'n_estimators': 9}","{'max_depth': 5, 'max_features': 'log2', 'n_estimators': 4}",{'n_neighbors': 20},,,,,,,,,,,,
+accuracy for Amphet,0.80371,0.79576,0.81698,0.79576,0.81432,X,,X,X,X,X,X,X,X,X,X,X
+Best parameters :,{'C': 1},"{'criterion': 'gini', 'max_depth': 3, 'max_features': 'auto', 'min_samples_leaf': 1, 'min_samples_split': 2}","{'criterion': 'gini', 'max_depth': 2, 'max_features': 'sqrt', 'n_estimators': 4}","{'max_depth': 5, 'max_features': 'auto', 'n_estimators': 9}",{'n_neighbors': 30},,,,,,,,,,,,
+accuracy for Amyl,0.93634,0.93634,0.93634,0.93634,0.93634,X,,X,X,X,X,,X,,X,X,X
+Best parameters :,{'C': 1},"{'criterion': 'entropy', 'max_depth': 2, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 2}","{'criterion': 'entropy', 'max_depth': 2, 'max_features': 'log2', 'n_estimators': 4}","{'max_depth': 5, 'max_features': 'log2', 'n_estimators': 4}",{'n_neighbors': 20},,,,,,,,,,,,
+accuracy for Benzos,0.72679,0.73475,0.75066,0.73475,0.7374,X,X,,X,X,X,X,,X,,X,X
+Best parameters :,{'C': 1},"{'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 8, 'min_samples_split': 5}","{'criterion': 'gini', 'max_depth': 5, 'max_features': 'log2', 'n_estimators': 9}","{'max_depth': 5, 'max_features': 'auto', 'n_estimators': 9}",{'n_neighbors': 70},,,,,,,,,,,,
+accuracy for Caffeine,0.97082,0.97082,0.97082,0.97082,0.97082,X,,X,X,X,,,X,X,,X,
+Best parameters :,{'C': 1},"{'criterion': 'gini', 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 8, 'min_samples_split': 5}","{'criterion': 'entropy', 'max_depth': 2, 'max_features': 'log2', 'n_estimators': 4}","{'max_depth': 5, 'max_features': 'log2', 'n_estimators': 4}",{'n_neighbors': 10},,,,,,,,,,,,
+accuracy for Cannabis,0.84085,0.79576,0.81698,0.79045,0.83024,X,X,X,X,X,X,X,X,X,X,X,X
+Best parameters :,{'C': 1},"{'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 1, 'min_samples_split': 2}","{'criterion': 'entropy', 'max_depth': 5, 'max_features': 'log2', 'n_estimators': 6}","{'max_depth': 5, 'max_features': 'auto', 'n_estimators': 9}",{'n_neighbors': 100},,,,,,,,,,,,
+accuracy for Chocolate,0.98143,0.98143,0.98143,0.98143,0.98143,X,X,X,X,X,X,X,X,X,X,,
+Best parameters :,{'C': 1},"{'criterion': 'entropy', 'max_depth': 2, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 2}","{'criterion': 'entropy', 'max_depth': 2, 'max_features': 'log2', 'n_estimators': 4}","{'max_depth': 5, 'max_features': 'log2', 'n_estimators': 4}",{'n_neighbors': 5},,,,,,,,,,,,
+accuracy for Cocaine,0.78249,0.81432,0.79841,0.79576,0.78515,X,,,X,X,,,X,X,,X,X
+Best parameters :,{'C': 1},"{'criterion': 'gini', 'max_depth': 7, 'max_features': 'log2', 'min_samples_leaf': 8, 'min_samples_split': 5}","{'criterion': 'gini', 'max_depth': 10, 'max_features': 'sqrt', 'n_estimators': 9}","{'max_depth': 5, 'max_features': 'auto', 'n_estimators': 4}",{'n_neighbors': 80},,,,,,,,,,,,
+accuracy for Crack,0.96021,0.96021,0.96021,0.96021,0.96021,X,X,X,X,X,X,X,X,X,X,X,X
+Best parameters :,{'C': 1},"{'criterion': 'gini', 'max_depth': 2, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 3}","{'criterion': 'entropy', 'max_depth': 10, 'max_features': 'log2', 'n_estimators': 9}","{'max_depth': 5, 'max_features': 'log2', 'n_estimators': 6}",{'n_neighbors': 20},,,,,,,,,,,,
+accuracy for Ecstasy,0.80106,0.7878,0.79841,0.74271,0.80106,X,X,,,,,,,,,,X
+Best parameters :,{'C': 1},"{'criterion': 'gini', 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 5, 'min_samples_split': 5}","{'criterion': 'gini', 'max_depth': 5, 'max_features': 'sqrt', 'n_estimators': 6}","{'max_depth': 5, 'max_features': 'auto', 'n_estimators': 9}",{'n_neighbors': 130},,,,,,,,,,,,
+accuracy for Heroin,0.94695,0.9496,0.95225,0.95225,0.95225,X,X,X,X,X,X,X,X,X,X,X,X
+Best parameters :,{'C': 1},"{'criterion': 'entropy', 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 5, 'min_samples_split': 2}","{'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto', 'n_estimators': 4}","{'max_depth': 5, 'max_features': 'log2', 'n_estimators': 4}",{'n_neighbors': 20},,,,,,,,,,,,
+accuracy for Ketamine,0.90981,0.90981,0.90981,0.90981,0.90981,X,,,X,X,,X,,X,,X,X
+Best parameters :,{'C': 1},"{'criterion': 'entropy', 'max_depth': 2, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 2}","{'criterion': 'entropy', 'max_depth': 2, 'max_features': 'log2', 'n_estimators': 4}","{'max_depth': 5, 'max_features': 'log2', 'n_estimators': 4}",{'n_neighbors': 30},,,,,,,,,,,,
+accuracy for Legalh,0.79841,0.79576,0.79841,0.77454,0.7931,X,X,,X,X,,,X,X,X,,X
+Best parameters :,{'C': 1},"{'criterion': 'entropy', 'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 2}","{'criterion': 'gini', 'max_depth': 5, 'max_features': 'log2', 'n_estimators': 9}","{'max_depth': 5, 'max_features': 'log2', 'n_estimators': 9}",{'n_neighbors': 120},,,,,,,,,,,,
+accuracy for LSD,0.85411,0.84881,0.83289,0.79045,0.84881,X,X,,X,X,X,X,X,,X,X,
+Best parameters :,{'C': 1},"{'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 1, 'min_samples_split': 5}","{'criterion': 'gini', 'max_depth': 5, 'max_features': 'log2', 'n_estimators': 9}","{'max_depth': 5, 'max_features': 'log2', 'n_estimators': 9}",{'n_neighbors': 110},,,,,,,,,,,,
+accuracy for Meth,0.83024,0.8435,0.8382,0.8435,0.84085,X,X,X,X,X,X,X,X,X,X,X,X
+Best parameters :,{'C': 1},"{'criterion': 'entropy', 'max_depth': 3, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 2}","{'criterion': 'gini', 'max_depth': 5, 'max_features': 'log2', 'n_estimators': 4}","{'max_depth': 5, 'max_features': 'log2', 'n_estimators': 9}",{'n_neighbors': 40},,,,,,,,,,,,
+accuracy for Mushrooms,0.82228,0.7931,0.81963,0.79576,0.80106,X,X,,X,X,,X,X,X,,X,X
+Best parameters :,{'C': 1},"{'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto', 'min_samples_leaf': 8, 'min_samples_split': 2}","{'criterion': 'entropy', 'max_depth': 5, 'max_features': 'auto', 'n_estimators': 6}","{'max_depth': 5, 'max_features': 'auto', 'n_estimators': 9}",{'n_neighbors': 30},,,,,,,,,,,,
+accuracy for Nicotine,0.71088,0.687,0.71353,0.70027,0.69231,,X,X,X,,X,X,X,X,X,X,X
+Best parameters :,{'C': 2},"{'criterion': 'gini', 'max_depth': 5, 'max_features': 'log2', 'min_samples_leaf': 8, 'min_samples_split': 3}","{'criterion': 'gini', 'max_depth': 5, 'max_features': 'sqrt', 'n_estimators': 9}","{'max_depth': 5, 'max_features': 'sqrt', 'n_estimators': 9}",{'n_neighbors': 50},,,,,,,,,,,,
+accuracy for VSA,0.95756,0.95756,0.96021,0.95756,0.95756,X,,X,,X,,X,,X,X,X,X
+Best parameters :,{'C': 5},"{'criterion': 'entropy', 'max_depth': 2, 'max_features': 'log2', 'min_samples_leaf': 1, 'min_samples_split': 2}","{'criterion': 'entropy', 'max_depth': 2, 'max_features': 'log2', 'n_estimators': 4}","{'max_depth': 5, 'max_features': 'sqrt', 'n_estimators': 9}",{'n_neighbors': 10},,,,,,,,,,,,
