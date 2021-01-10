@@ -41,12 +41,18 @@ And launch the app.
 python app.py
 ```
 
-And go on your browser on http://0.0.0.0:5000/.
+And go on your browser on http://localhost:5000/.
 
 ## Running the tests
 
 You can try my code directly on [Colab](https://colab.research.google.com/drive/1m6wGJDoEgDScRVmdWcOt9P7AnSR4C8bx?usp=sharing).
 Or on the flask app. You select your features, the drug and wait for the results. Results are compiled in Results navbar or in csv file all_accuracy.csv.
+
+## Conclusion
+
+For all drugs except nicotine, the accuracy obtained on test sets is greater than 80%
+(70% for nicotine). It is without a doubt better than a random guess. We can infer
+that our personality traits play a huge role in our tendency to addiction.
 
 ## Built With
 
